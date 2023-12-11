@@ -15,12 +15,12 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav);
 
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-gradient-to-r from-cyan-400 to-teal-100 text-black shadow-md shadow-violet-100">
             <div>
-                <h1 className="font-thin text-2xl italic font-serif">NG</h1>
+                <h1 className="font-thin text-2xl font-serif">Developed by Noel</h1>
             </div>
             {/* Menu */}
-            <ul className="hidden md:flex gap-x-8">
+            <ul className="hidden md:flex gap-x-8 font-semibold">
                 <li>
                     <Link to='home' smooth={true} duration={500} >
                         Home
