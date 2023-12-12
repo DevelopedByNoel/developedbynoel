@@ -16,7 +16,7 @@ const Mywork = () => {
                             <span className="text-lg font-bold text-white tracking-wider">
                                 Skill Match
                             </span>
-                            <p className="text-center">A job search application that allows you to match your skills with your job search. <p className="py-2">Built with React.</p></p>
+                            <p className="text-center">A job search application that allows you to match your skills to relevant jobs. <p className="py-2 font-semibold">Built with React.</p></p>
                             <div className="pt-8 text-center">
                                 <a href='https://skillmatch-jobs.netlify.app/'>
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
